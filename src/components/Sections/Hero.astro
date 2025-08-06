@@ -1,17 +1,22 @@
 ---
-import { basics } from '@cv'
-import Section from '@/components/Section.astro'
-import Mail from '@/icons/Mail.svg'
-import Phone from '@/icons/Phone.svg'
-import Twitter from '@/icons/Twitter.svg'
-import LinkedIn from '@/icons/LinkedIn.svg'
-import GitHub from '@/icons/GitHub.svg'
-import Globe from '@/icons/Globe.svg'
+import { basics } from "@cv";
+import Section from "@/components/Section.astro";
+import Mail from "@/icons/Mail.svg";
+import Phone from "@/icons/Phone.svg";
+import Twitter from "@/icons/Twitter.svg";
+import LinkedIn from "@/icons/LinkedIn.svg";
+import GitHub from "@/icons/GitHub.svg";
+import Globe from "@/icons/Globe.svg";
 
-const { name, label, image, location, profiles, phone, email } = basics
-const { city, region } = location
+const { name, label, image, location, profiles, phone, email } = basics;
+const { city, region } = location;
 
-const SOCIAL_ICONS: Record<string, any> = {GitHub, LinkedIn, Twitter}
+const SOCIAL_ICONS: Record<string, any> = { GitHub, LinkedIn, Twitter };
+
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedUrl = linkedInfo?.url;
+
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 ---
 
 <Section>
@@ -21,16 +26,19 @@ const SOCIAL_ICONS: Record<string, any> = {GitHub, LinkedIn, Twitter}
             <h2>{label}</h2>
             <span>
                 <Globe />
-                 {city}, {region}
+                {city}, {region}
             </span>
-            <footer>
+            <footer class="print">
+                {printInfo}
+            </footer>
+            <footer class="no-print">
                 {
                     email && (
-                        <a 
-                        href={`mailto:${email}`}
-                        title={`Enviar un correo electrónico a ${name} al correo ${email}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        <a
+                            href={`mailto:${email}`}
+                            title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <Mail />
                         </a>
@@ -38,11 +46,11 @@ const SOCIAL_ICONS: Record<string, any> = {GitHub, LinkedIn, Twitter}
                 }
                 {
                     phone && (
-                        <a 
-                        href={`tel:${phone}`}
-                        title={`Llamar por teléfono a ${name} al número ${phone}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        <a
+                            href={`tel:${phone}`}
+                            title={`Llamar por teléfono a ${name} al número ${phone}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <Phone />
                         </a>
@@ -50,7 +58,7 @@ const SOCIAL_ICONS: Record<string, any> = {GitHub, LinkedIn, Twitter}
                 }
                 {
                     profiles.map(({ network, url, username }) => {
-                        const Icon = SOCIAL_ICONS[network]
+                        const Icon = SOCIAL_ICONS[network];
 
                         return (
                             <a
@@ -61,13 +69,13 @@ const SOCIAL_ICONS: Record<string, any> = {GitHub, LinkedIn, Twitter}
                             >
                                 <Icon />
                             </a>
-                        )
+                        );
                     })
                 }
             </footer>
         </div>
         <figure>
-            <img src={image} alt={name}>
+            <img src={image} alt={name} />
         </figure>
     </div>
 </Section>
@@ -110,12 +118,14 @@ const SOCIAL_ICONS: Record<string, any> = {GitHub, LinkedIn, Twitter}
         color: #666;
         display: flex;
         align-items: center;
-        gap: .25rem;
-        font-size: .85rem;
+        gap: 0.25rem;
+        font-size: 0.85rem;
         letter-spacing: -0.05rem;
     }
 
     footer {
+        color: #555;
+        font-size: 0.65rem;
         display: flex;
         gap: 4px;
         margin-top: 8px;
@@ -131,7 +141,7 @@ const SOCIAL_ICONS: Record<string, any> = {GitHub, LinkedIn, Twitter}
         height: 32px;
         width: 32px;
         border-radius: 6px;
-        transition: all .3s ease;
+        transition: all 0.3s ease;
     }
 
     footer a:hover {

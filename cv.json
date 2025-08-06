@@ -31,17 +31,41 @@
       "url": "https://linkedin.com/in/john"
     }]
   },
-  "work": [{
+  "work": [
+    {
     "name": "Company",
     "position": "President",
     "url": "https://company.com",
     "startDate": "2013-01-01",
     "endDate": "2014-01-01",
-    "summary": "Description…",
+    "summary": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
     "highlights": [
       "Started the company"
     ]
-  }],
+  },
+    {
+    "name": "Company",
+    "position": "President",
+    "url": "https://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "highlights": [
+      "Started the company"
+    ]
+  },
+    {
+    "name": "Company",
+    "position": "President",
+    "url": "https://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "highlights": [
+      "Started the company"
+    ]
+  }
+  ],
   "volunteer": [{
     "organization": "Organization",
     "position": "Volunteer",
@@ -84,15 +108,32 @@
     "url": "https://publication.com",
     "summary": "Description…"
   }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ]
-  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    }
+  ],
   "languages": [{
     "language": "English",
     "fluency": "Native speaker"
@@ -108,14 +149,50 @@
     "name": "Jane Doe",
     "reference": "Reference…"
   }],
-  "projects": [{
-    "name": "Project",
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "description": "Description...",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "url": "https://project.com/"
-  }]
+  "projects": [
+    {
+      "name": "Project 01",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
+        {
+      "name": "Project 02",
+      "isActive": false,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
+        {
+      "name": "Project 03",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    },
+        {
+      "name": "Project 04",
+      "isActive": false,
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "url": "https://project.com/"
+    }
+  ]
 }
