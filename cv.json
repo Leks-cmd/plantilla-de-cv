@@ -16,50 +16,55 @@
     },
     "profiles": [
       {
-      "network": "Twitter",
-      "username": "john",
-      "url": "https://twitter.com/john"
+      "network": "Threads",
+      "username": "Leks",
+      "url": "https://www.threads.com/?hl=es"
+    },
+      {
+      "network": "BlueSky",
+      "username": "Leks",
+      "url": "https://bsky.app/"
     },
       {
       "network": "GitHub",
       "username": "Leks-cmd",
-      "url": "https://github.com/Leks-cmd"
+      "url": "https://github.com/"
     },
       {
       "network": "LinkedIn",
-      "username": "john",
-      "url": "https://linkedin.com/in/john"
+      "username": "Leks",
+      "url": "https://linkedin.com/in/"
     }]
   },
   "work": [
     {
-    "name": "Company",
-    "position": "President",
+    "name": "Freelance",
+    "position": "Modelado 3D",
     "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
+    "startDate": "2022-01-01",
+    "endDate": "2023-01-01",
     "summary": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
     "highlights": [
       "Started the company"
     ]
   },
     {
-    "name": "Company",
-    "position": "President",
+    "name": "Freelance",
+    "position": "Diseñador de Overlays",
     "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
+    "startDate": "2020-01-01",
+    "endDate": "2022-01-01",
     "summary": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
     "highlights": [
       "Started the company"
     ]
   },
     {
-    "name": "Company",
-    "position": "President",
+    "name": "Uneweb",
+    "position": "Diseñador",
     "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
+    "startDate": "2016-01-01",
+    "endDate": "2020-01-01",
     "summary": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
     "highlights": [
       "Started the company"
@@ -77,18 +82,52 @@
       "Awarded 'Volunteer of the Month'"
     ]
   }],
-  "education": [{
-    "institution": "University",
+  "education": [
+    {
+    "institution": "Metodo Formación",
+    "url": "https://metodoformacion.com/",
+    "area": "Artes Plasticas",
+    "studyType": "TSU",
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-01",
+    "score": "4.0",
+    "courses": [
+      "HTML - CSS - JavaScript - PHP - Frameworks"
+    ]},
+    {
+    "institution": "Escuela de Artes Plasticas Arturo Michelena",
     "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
+    "area": "Artes Plasticas",
+    "studyType": "TSU",
+    "startDate": "2014-01-01",
+    "endDate": "2016-01-01",
+    "score": "4.0",
+    "courses": [
+      "Dibujo - Pintura - Historia del Arte - Escultura"
+    ]},
+    {
+    "institution": "Instituto de Diseño",
+    "url": "https://institution.com/",
+    "area": "Diseño Gráfico",
+    "studyType": "Curso",
+    "startDate": "2013-01-01",
     "endDate": "2013-01-01",
     "score": "4.0",
     "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
+      "Photoshop - CorelDraw - Illustrator - Flash"
+    ]},
+    {
+    "institution": "U.E.P Enrique Julio Gutierrez",
+    "url": "https://institution.com/",
+    "area": "Basica",
+    "studyType": "Bachillerato",
+    "startDate": "2007-01-01",
+    "endDate": "2012-01-01",
+    "score": "4.0",
+    "courses": [
+      ""
+    ]}
+  ],
   "awards": [{
     "title": "Award",
     "date": "2014-11-01",
@@ -132,6 +171,38 @@
         "Desarrollo Web",
         "Frontend"
       ]
+    },
+    {
+      "name": "Blender",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Affinity Suit",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Affter Effects",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Premiere Pro",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
     }
   ],
   "languages": [{
@@ -151,48 +222,70 @@
   }],
   "projects": [
     {
-      "name": "Project 01",
+      "name": "DAZ Studio",
       "isActive": true,
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "startDate": "2020-01-01",
+      "endDate": "2022-01-01",
+      "description": "Assets para la tienda de DAZ Studio",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Modelado para props"
       ],
-      "url": "https://project.com/"
+      "url": "https://www.daz3d.com/shop/"
     },
         {
-      "name": "Project 02",
+      "name": "Propuesta de reforma",
       "isActive": false,
       "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "endDate": "2019-01-01",
+      "description": "Modelado para una propuesta a la universidad Central de Venezuela",
       "highlights": [
-        "Won award at AIHacks 2016"
+        
       ],
       "url": "https://project.com/"
     },
         {
-      "name": "Project 03",
+      "name": "Overlays",
       "isActive": true,
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "startDate": "2020-01-01",
+      "endDate": "2022-01-01",
+      "description": "Overlays realizados con Affinity Designer y Affter Effects para usarlos en OBs para la plataforma de Twitchs",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Best Overlays"
       ],
       "url": "https://project.com/"
     },
         {
-      "name": "Project 04",
+      "name": "Simulación de Web",
       "isActive": false,
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "startDate": "2025-01-01",
+      "endDate": "2025-01-01",
+      "description": "Ejemplo de tienda online de venta de zapatos",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "HTML - CSS"
       ],
       "url": "https://project.com/"
+    },
+        {
+      "name": "Simulación de Libreria",
+      "isActive": false,
+      "startDate": "2025-01-01",
+      "endDate": "2025-01-01",
+      "description": "Ejemplo de libreria online con modal",
+      "highlights": [
+        "HTML - CSS - JavaScrip - Modal - JSON"
+      ],
+      "url": "https://project.com/"
+    },
+        {
+      "name": "Upssy",
+      "isActive": false,
+      "startDate": "2025-01-01",
+      "endDate": "2025-01-01",
+      "description": "Ejemplo de una vista de proyecto",
+      "highlights": [
+        
+      ],
+      "url": "https://www.youtube.com/shorts/Ay8lynMZ4mE"
     }
   ]
 }

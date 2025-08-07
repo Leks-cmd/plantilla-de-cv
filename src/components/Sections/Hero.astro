@@ -3,7 +3,8 @@ import { basics } from "@cv";
 import Section from "@/components/Section.astro";
 import Mail from "@/icons/Mail.svg";
 import Phone from "@/icons/Phone.svg";
-import Twitter from "@/icons/Twitter.svg";
+import BlueSky from "@/icons/BlueSky.svg";
+import Threads from "@/icons/Threads.svg";
 import LinkedIn from "@/icons/LinkedIn.svg";
 import GitHub from "@/icons/GitHub.svg";
 import Globe from "@/icons/Globe.svg";
@@ -11,7 +12,7 @@ import Globe from "@/icons/Globe.svg";
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
 
-const SOCIAL_ICONS: Record<string, any> = { GitHub, LinkedIn, Twitter };
+const SOCIAL_ICONS: Record<string, any> = { GitHub, LinkedIn, BlueSky, Threads };
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
 const linkedUrl = linkedInfo?.url;
@@ -83,6 +84,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 <style>
     .container {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
