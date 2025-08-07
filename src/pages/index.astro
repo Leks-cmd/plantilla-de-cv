@@ -9,11 +9,14 @@ import Projects from '@/components/Sections/Projects.astro';
 import Skills from '@/components/Sections/Skills.astro';
 import KeyboardManager from '@/components/KeyboardManager.astro';
 
+import { basics } from '@cv'
+const { name, label } = basics
+
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout title="Minimalist Portfolio">
+<Layout title={`Portafolio de ${name} - ${label}`}>
 	<main>
 		<Hero />
 		<About />
