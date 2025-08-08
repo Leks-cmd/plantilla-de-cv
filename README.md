@@ -1,57 +1,25 @@
-# Astro Starter Kit: Basics
+# Descripción del proyecto 📃
 
-```sh
-npm create astro@latest -- --template basics
-```
+Este repositorio contiene una plantilla de CV moderna y minimalista, construida con el framework Astro. El objetivo es ofrecer una base limpia y bien estructurada para que puedas crear tu currículum de forma rápida.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Además de su diseño sencillo, la plantilla incluye Ninja Keys, una herramienta de accesibilidad que te permite navegar por el sitio y realizar acciones mediante un atajo de teclado (Ctrl + K o Cmd + K), abriendo una paleta de comandos.
 
-## 🚀 Project Structure
+## Características clave 📌
 
-Inside of your Astro project, you'll see the following folders and files:
+- Astro: Un framework web para construir sitios de forma rápida y moderna.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+- Ninja Keys: Para una paleta de comandos interactiva que mejora la navegación y accesibilidad.
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+- HTML y CSS: Código limpio y fácil de entender.
 
-## 🧞 Commands
+- Diseño minimalista: Un enfoque en la legibilidad y la estructura.
 
-All commands are run from the root of the project, from a terminal:
+- Schema del JSON de CV: https://jsonresume.org/schema
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- Basado en el diseño de: https://github.com/BartoszJarocki/cv
 
-## 👀 Want to learn more?
+- Edita el archivo `cv.json` para crear tu propio Portafolio/CV imprimible.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### Contribuciones ⌨️
 
-###
-
-Schema del JSON de CV:
-- https://jsonresume.org/schema
-
-Basado en el diseño de:
-- https://github.com/BartoszJarocki/cv
-
-Edita el archivo `cv.json` para crear tu propio Portafolio/CV imprimible.
-
+Si tienes ideas para mejorar la plantilla, como añadir nuevas secciones o estilos, ¡no dudes en abrir un pull request! Toda contribución es bienvenida.

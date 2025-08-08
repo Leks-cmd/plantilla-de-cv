@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Alejandro Villegas",
-    "label": "Programmer",
+    "label": "Diseñador gráfico y multimedia.",
     "image": "./public/avatar.svg",
-    "email": "Alejandro@gmail.com",
+    "email": "ejemplo@gmail.com",
     "phone": "(912) 555-4321",
     "url": "https://johndoe.com",
-    "summary": "A summary of John Doe… Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+    "summary": "Con una sólida base en la creación de elementos visuales, animaciones y edición de video. Con dominio de herramientas de Adobe y Affinity, y conocimientos en desarrollo web (HTML, CSS), lo que me permite abordar proyectos desde una perspectiva integral.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -233,19 +233,20 @@
       "url": "https://www.daz3d.com/shop/"
     },
         {
-      "name": "Propuesta de reforma",
-      "isActive": false,
+      "name": "Video Liryc con Motion Graphic",
+      "isActive": true,
       "startDate": "2019-01-01",
       "endDate": "2019-01-01",
-      "description": "Modelado para una propuesta a la universidad Central de Venezuela",
+      "description": "Video liryc para una banda de rock",
       "highlights": [
-        
+        "Affter Effects",
+        "Premiere Pro"
       ],
-      "url": "https://project.com/"
+      "url": "https://www.youtube.com/watch?v=1ivfRto4Di8"
     },
         {
       "name": "Overlays",
-      "isActive": true,
+      "isActive": false,
       "startDate": "2020-01-01",
       "endDate": "2022-01-01",
       "description": "Overlays realizados con Affinity Designer y Affter Effects para usarlos en OBs para la plataforma de Twitchs",
