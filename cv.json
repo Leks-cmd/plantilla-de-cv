@@ -2,7 +2,7 @@
   "basics": {
     "name": "Alejandro Villegas",
     "label": "Diseñador gráfico y multimedia.",
-    "image": "./public/avatar.svg",
+    "image": "/avatar.svg",
     "email": "ejemplo@gmail.com",
     "phone": "(912) 555-4321",
     "url": "https://johndoe.com",
