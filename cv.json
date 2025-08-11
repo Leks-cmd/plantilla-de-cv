@@ -3,10 +3,10 @@
     "name": "Alejandro Villegas",
     "label": "Diseñador gráfico y multimedia.",
     "image": "/avatar.svg",
-    "email": "ejemplo@gmail.com",
-    "phone": "(912) 555-4321",
+    "email": "leksjobs@gmail.com",
+
     "url": "https://johndoe.com",
-    "summary": "Con una sólida base en la creación de elementos visuales, animaciones y edición de video. Con dominio de herramientas de Adobe y Affinity, y conocimientos en desarrollo web (HTML, CSS), lo que me permite abordar proyectos desde una perspectiva integral.",
+    "summary": "Con una sólida base en la creación de elementos visuales, animaciones y edición de video. Con dominio de herramientas de Adobe y Affinity, con conocimientos en desarrollo web (HTML, CSS), lo que me permite abordar proyectos desde una perspectiva integral.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -16,24 +16,19 @@
     },
     "profiles": [
       {
-      "network": "Threads",
+      "network": "Artstation",
       "username": "Leks",
-      "url": "https://www.threads.com/?hl=es"
-    },
-      {
-      "network": "BlueSky",
-      "username": "Leks",
-      "url": "https://bsky.app/"
+      "url": "https://leks3d.artstation.com/"
     },
       {
       "network": "GitHub",
       "username": "Leks-cmd",
-      "url": "https://github.com/"
+      "url": "https://github.com/Leks-cmd"
     },
       {
       "network": "LinkedIn",
-      "username": "Leks",
-      "url": "https://linkedin.com/in/"
+      "username": "Alejandro",
+      "url": "https://www.linkedin.com/in/villegascaa/"
     }]
   },
   "work": [
@@ -43,7 +38,7 @@
     "url": "https://company.com",
     "startDate": "2022-01-01",
     "endDate": "2023-01-01",
-    "summary": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "summary": "Con el modelado 3D realice diversos trabajos de props para ser usados en DAZ studio, Second Life y modelado arquitectonico para renders de propuestas sobre renovación de espacios.",
     "highlights": [
       "Started the company"
     ]
@@ -54,7 +49,7 @@
     "url": "https://company.com",
     "startDate": "2020-01-01",
     "endDate": "2022-01-01",
-    "summary": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "summary": "En este periodo realice diversos encargos de Overlays animados usando herramientas tales como After Effects y Premiere Pro con diferentes motivos segun la exigencia y preferencia del cliente.",
     "highlights": [
       "Started the company"
     ]
@@ -65,7 +60,7 @@
     "url": "https://company.com",
     "startDate": "2016-01-01",
     "endDate": "2020-01-01",
-    "summary": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "summary": "En este instituto de cursos online realice tareas de diseño para las redes sociales: Instagram, Facebook, LinkedIn. Además colabore varais veces con edición de vídeo para los cursos online y crear algunos apartados en la pagína web utilizando Wordpress.",
     "highlights": [
       "Started the company"
     ]
@@ -86,13 +81,13 @@
     {
     "institution": "Metodo Formación",
     "url": "https://metodoformacion.com/",
-    "area": "Artes Plasticas",
+    "area": "Confección y publicación de páginas web",
     "studyType": "TSU",
     "startDate": "2025-01-01",
     "endDate": "2025-01-01",
     "score": "4.0",
     "courses": [
-      "HTML - CSS - JavaScript - PHP - Frameworks"
+      "HTML - CSS - JavaScript - PHP - Frameworks - Wordpress"
     ]},
     {
     "institution": "Escuela de Artes Plasticas Arturo Michelena",
@@ -149,6 +144,38 @@
   }],
   "skills": [
     {
+      "name": "Affinity Suit",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Motion Graphics",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Edición de Vídeo",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Blender 3D",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend"
+      ]
+    },
+    {
       "name": "HTML",
       "level": "Master",
       "keywords": [
@@ -166,38 +193,6 @@
     },
     {
       "name": "JavaScript",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend"
-      ]
-    },
-    {
-      "name": "Blender",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend"
-      ]
-    },
-    {
-      "name": "Affinity Suit",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend"
-      ]
-    },
-    {
-      "name": "Affter Effects",
-      "level": "Master",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend"
-      ]
-    },
-    {
-      "name": "Premiere Pro",
       "level": "Master",
       "keywords": [
         "Desarrollo Web",
@@ -223,7 +218,7 @@
   "projects": [
     {
       "name": "DAZ Studio",
-      "isActive": true,
+      "isActive": false,
       "startDate": "2020-01-01",
       "endDate": "2022-01-01",
       "description": "Assets para la tienda de DAZ Studio",
@@ -251,12 +246,11 @@
       "endDate": "2022-01-01",
       "description": "Overlays realizados con Affinity Designer y Affter Effects para usarlos en OBs para la plataforma de Twitchs",
       "highlights": [
-        "Best Overlays"
       ],
-      "url": "https://project.com/"
+      "url": null
     },
         {
-      "name": "Simulación de Web",
+      "name": "Simulación de Web Shop",
       "isActive": false,
       "startDate": "2025-01-01",
       "endDate": "2025-01-01",
@@ -265,28 +259,6 @@
         "HTML - CSS"
       ],
       "url": "https://project.com/"
-    },
-        {
-      "name": "Simulación de Libreria",
-      "isActive": false,
-      "startDate": "2025-01-01",
-      "endDate": "2025-01-01",
-      "description": "Ejemplo de libreria online con modal",
-      "highlights": [
-        "HTML - CSS - JavaScrip - Modal - JSON"
-      ],
-      "url": "https://project.com/"
-    },
-        {
-      "name": "Upssy",
-      "isActive": false,
-      "startDate": "2025-01-01",
-      "endDate": "2025-01-01",
-      "description": "Ejemplo de una vista de proyecto",
-      "highlights": [
-        
-      ],
-      "url": "https://www.youtube.com/shorts/Ay8lynMZ4mE"
     }
   ]
 }
