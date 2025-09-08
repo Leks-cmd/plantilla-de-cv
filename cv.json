@@ -247,17 +247,6 @@
       "highlights": [
       ],
       "url": null
-    },
-        {
-      "name": "Simulación de Web Shop",
-      "isActive": false,
-      "startDate": "2025-01-01",
-      "endDate": "2025-01-01",
-      "description": "Ejemplo de tienda online de venta de zapatos",
-      "highlights": [
-        "HTML - CSS"
-      ],
-      "url": "https://project.com/"
     }
   ]
 }
