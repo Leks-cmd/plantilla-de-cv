@@ -18,7 +18,7 @@ const SOCIAL_ICONS: Record<string, any> = { GitHub, LinkedIn, Artstation };
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
 const linkedUrl = linkedInfo?.url;
 
-const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
+const printInfo = [phone, email, linkedUrl].filter(Boolean).join(" • ");
 ---
 
 <Section>
