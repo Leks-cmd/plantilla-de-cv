@@ -10,7 +10,7 @@ import GitHub from "@/icons/GitHub.svg";
 import Globe from "@/icons/Globe.svg";
 import Artstation from "@/icons/Artstation.svg";
 
-const { name, label, image, location, profiles, email } = basics;
+const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
 
 const SOCIAL_ICONS: Record<string, any> = { GitHub, LinkedIn, Artstation };
@@ -47,7 +47,7 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
                     )
                 }
                 {
-                    /* phone && (
+                    phone && (
                         <a
                             href={`tel:${phone}`}
                             title={`Llamar por teléfono a ${name} al número ${phone}`}
@@ -56,7 +56,7 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
                         >
                             <Phone />
                         </a>
-                    )*/
+                    )
                 }
                 {
                     profiles.map(({ network, url, username }) => {
