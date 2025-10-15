@@ -227,17 +227,6 @@
   }],
   "projects": [
     {
-      "name": "DAZ Studio",
-      "isActive": false,
-      "startDate": "2020-01-01",
-      "endDate": "2022-01-01",
-      "description": "Assets para la tienda de DAZ Studio",
-      "highlights": [
-        "Modelado para props"
-      ],
-      "url": "https://www.daz3d.com/shop/"
-    },
-        {
       "name": "Video Liryc con Motion Graphic",
       "isActive": true,
       "startDate": "2019-01-01",
@@ -250,14 +239,24 @@
       "url": "https://www.youtube.com/watch?v=1ivfRto4Di8"
     },
         {
-      "name": "Overlays",
+      "name": "Colaborador en Marmoles Gallegos",
       "isActive": false,
       "startDate": "2020-01-01",
       "endDate": "2022-01-01",
-      "description": "Overlays realizados con Affinity Designer y Affter Effects para usarlos en OBs para la plataforma de Twitchs",
+      "description": "Maquetación en Wordpress usando Otter y tema Neve.",
       "highlights": [
       ],
-      "url": null
+      "url": "https://www.marmolesgallego.es/"
+    },
+    {
+      "name": "Colaborador en Precintos Noan",
+      "isActive": false,
+      "startDate": "2020-01-01",
+      "endDate": "2022-01-01",
+      "description": "Maquetación en Wordpress usando Otter y tema Neve. Además de algunos diseños con Affinity Designer y código para formulario con condicionales",
+      "highlights": [
+      ],
+      "url": "https://dev.precintosnoan.com/"
     }
   ]
 }
