@@ -245,6 +245,9 @@
       "endDate": "2022-01-01",
       "description": "Maquetación en Wordpress usando Otter y tema Neve.",
       "highlights": [
+        "Wordpress",
+        "Otter",
+        "Neve Theme"
       ],
       "url": "https://www.marmolesgallego.es/"
     },
@@ -255,6 +258,9 @@
       "endDate": "2022-01-01",
       "description": "Maquetación en Wordpress usando Otter y tema Neve. Además de algunos diseños con Affinity Designer y código para formulario con condicionales",
       "highlights": [
+        "Wordpress",
+        "Otter",
+        "Neve Theme"
       ],
       "url": "https://dev.precintosnoan.com/"
     }
