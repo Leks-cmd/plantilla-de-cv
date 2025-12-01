@@ -262,7 +262,7 @@
     },
         {
       "name": "Colaborador en Marmoles Gallegos",
-      "isActive": false,
+      "isActive": true,
       "startDate": "2020-01-01",
       "endDate": "2022-01-01",
       "description": "Maquetación en Wordpress usando Otter y tema Neve.",
@@ -276,7 +276,7 @@
     },
     {
       "name": "Colaborador en Precintos Noan",
-      "isActive": false,
+      "isActive": true,
       "startDate": "2020-01-01",
       "endDate": "2022-01-01",
       "description": "Maquetación en Wordpress usando Otter y tema Neve. Además de algunos diseños con Affinity Designer y código para formulario con condicionales",
