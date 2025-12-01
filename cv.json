@@ -235,6 +235,19 @@
   }],
   "projects": [
     {
+      "name": "Qüez",
+      "isActive": true,
+      "startDate": "2019-01-01",
+      "endDate": "2019-01-01",
+      "description": "Logo para banda de rock venezolana",
+      "highlights": [
+        "Affinity Designer",
+        "After Effects",
+        "https://acortar.link/Gnl1ES"
+      ],
+      "url": "https://www.behance.net/gallery/189957477/QUEEZ-Banda"
+    },
+    {
       "name": "Video Liryc con Motion Graphic",
       "isActive": true,
       "startDate": "2019-01-01",
@@ -242,9 +255,10 @@
       "description": "Video liryc para una banda de rock",
       "highlights": [
         "Affter Effects",
-        "Premiere Pro"
+        "Premiere Pro",
+        "https://acortar.link/5dOakX"
       ],
-      "url": "https://www.youtube.com/watch?v=1ivfRto4Di8"
+      "url": "https://www.behance.net/gallery/239471011/Edicion-de-Video-para-Lepster"
     },
         {
       "name": "Colaborador en Marmoles Gallegos",
@@ -255,7 +269,8 @@
       "highlights": [
         "Wordpress",
         "Otter",
-        "Neve Theme"
+        "Neve Theme",
+        "https://www.marmolesgallego.es/"
       ],
       "url": "https://www.marmolesgallego.es/"
     },
@@ -268,7 +283,8 @@
       "highlights": [
         "Wordpress",
         "Otter",
-        "Neve Theme"
+        "Neve Theme",
+        "https://precintosnoan.com/"
       ],
       "url": "https://dev.precintosnoan.com/"
     }
